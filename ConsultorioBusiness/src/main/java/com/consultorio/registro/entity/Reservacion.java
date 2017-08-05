@@ -8,17 +8,11 @@ package com.consultorio.registro.entity;
 
 public class Reservacion {
     
-    private Paciente paciente;
+    
     private boolean Confirmacion_presencial = false;
     private Long  numero_reservacion;
 
-    public Paciente getPaciente() {
-        return paciente;
-    }
-
-    public void setPaciente(Paciente paciente) {
-        this.paciente = paciente;
-    }
+    
 
     public boolean isConfirmacion_presencial() {
         return Confirmacion_presencial;

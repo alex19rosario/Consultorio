@@ -9,11 +9,28 @@ package com.consultorio.registro.entity;
 
 public class Cita {
     
+    private Paciente paciente;
     private Reservacion reservacion;
     private String fecha_visita;
     private String motivo_visita;
-    private String departamento;
     private Procedimiento procedimiento;
+    private Medico medico;
+
+    public Paciente getPaciente() {
+        return paciente;
+    }
+
+    public void setPaciente(Paciente paciente) {
+        this.paciente = paciente;
+    }
+    
+    public Medico getMedico() {
+        return medico;
+    }
+
+    public void setMedico(Medico medico) {
+        this.medico = medico;
+    }
 
     public Reservacion getReservacion() {
         return reservacion;
@@ -39,13 +56,7 @@ public class Cita {
         this.motivo_visita = motivo_visita;
     }
 
-    public String getDepartamento() {
-        return departamento;
-    }
-
-    public void setDepartamento(String departamento) {
-        this.departamento = departamento;
-    }
+    
 
     public Procedimiento getProcedimiento() {
         return procedimiento;

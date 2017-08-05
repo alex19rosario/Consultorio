@@ -8,17 +8,17 @@ package com.consultorio.registro.entity;
 
 public class Procedimiento {
     
-    private Medico medico;
+    private String Descripcion;
     private String prueba_realizada;
     private String diagnostico;
     private String tratamiento;
-
-    public Medico getMedico() {
-        return medico;
+    
+    public String getDescripcion() {
+        return Descripcion;
     }
 
-    public void setMedico(Medico medico) {
-        this.medico = medico;
+    public void setDescripcion(String Descripcion) {
+        this.Descripcion = Descripcion;
     }
 
     public String getPrueba_realizada() {

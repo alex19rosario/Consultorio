@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04/08/2017, 11:42:28 AM
+    Author     : Sammy Guergachi <sguergachi at gmail.com>
+*/
+.PacienteButton {
+    -fx-background-image: url(/imagenes/User.png);
+}
+
+.DoctorButton {
+    -fx-background-image: url(/imagenes/Doctor.png);
+}
+
+.ProcedimientoButton{
+    -fx-background-image: url(/imagenes/Procedimiento.png);
+}
+
+.CitaButton{
+    -fx-background-image: url(/imagenes/Cita.png);
+}
+
+.RegistrarButton{
+    -fx-background-color:limegreen;
+    -fx-text-fill:white;
+}
+
+.CancelarButton{
+    -fx-background-color:tomato;
+    -fx-text-fill:white;
+}
+
+.fondo1{
+    -fx-background-image: url(/imagenes/fondo2.jpg);
+    -fx-background-position: center center; 
+    -fx-background-size: 1200 800;
+    -fx-background-repeat: stretch;
+}
+
+.fondo2{
+    -fx-background-image: url(/imagenes/fondo1.jpg);
+    -fx-background-position: center center; 
+    -fx-background-size: 600 400;
+    -fx-background-repeat: stretch;
+}

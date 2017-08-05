@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.consultorio.registro.controller.PantallaPacienteController">
+   <children>
+      <Label layoutX="47.0" layoutY="132.0" text="Nombre" />
+      <Label layoutX="47.0" layoutY="171.0" text="Apellido" />
+      <Label layoutX="47.0" layoutY="211.0" text="Cedula" />
+      <Label layoutX="47.0" layoutY="251.0" text="Sexo" />
+      <Label layoutX="283.0" layoutY="132.0" text="Fecha de nacimiento" />
+      <Label layoutX="375.0" layoutY="171.0" text="Correo" />
+      <Label layoutX="374.0" layoutY="211.0" text="Tel/Cel" />
+      <Label layoutX="316.0" layoutY="251.0" text="Tipo de Sangre" />
+      <TextField layoutX="106.0" layoutY="127.0" prefHeight="26.0" prefWidth="160.0" />
+      <TextField layoutX="106.0" layoutY="166.0" prefHeight="26.0" prefWidth="160.0" />
+      <TextField layoutX="106.0" layoutY="206.0" prefHeight="26.0" prefWidth="160.0" />
+      <TextField layoutX="426.0" layoutY="166.0" prefHeight="26.0" prefWidth="160.0" />
+      <TextField layoutX="426.0" layoutY="206.0" prefHeight="26.0" prefWidth="160.0" />
+      <Label layoutX="38.0" layoutY="35.0" text="Registrando Paciente">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="sexoChoiceBox" layoutX="106.0" layoutY="246.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="sangreChoiceBox" layoutX="426.0" layoutY="246.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="diaChoiceBox" layoutX="426.0" layoutY="127.0" prefHeight="26.0" prefWidth="45.0" />
+      <ChoiceBox fx:id="mesChoiceBox" layoutX="479.0" layoutY="127.0" prefHeight="26.0" prefWidth="45.0" />
+      <ChoiceBox fx:id="anioChoiceBox" layoutX="531.0" layoutY="127.0" prefHeight="26.0" prefWidth="62.0" />
+      <Label layoutX="443.0" layoutY="111.0" text="D" />
+      <Label layoutX="495.0" layoutY="111.0" text="M" />
+      <Label layoutX="553.0" layoutY="111.0" text="A" />
+      <Button layoutX="189.0" layoutY="328.0" mnemonicParsing="false" styleClass="RegistrarButton" stylesheets="@../HojasDeEstilos/hoja1.css" text="REGISTRAR" />
+      <Button layoutX="321.0" layoutY="328.0" mnemonicParsing="false" styleClass="CancelarButton" stylesheets="@../HojasDeEstilos/hoja1.css" text="CANCELAR" />
+   </children>
+</AnchorPane>
