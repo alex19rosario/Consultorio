@@ -14,7 +14,7 @@ public abstract class Persona {
     protected String cedula;
     protected String edad;
     protected String fecha_nacimiento;
-    protected String direccion;
+    protected String correo;
     protected String telefono;
 
     public String getNombre() {
@@ -57,12 +57,12 @@ public abstract class Persona {
         this.fecha_nacimiento = fecha_nacimiento;
     }
 
-    public String getDireccion() {
-        return direccion;
+    public String getCorreo() {
+        return correo;
     }
 
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
+    public void setCorreo(String correo) {
+        this.correo = correo;
     }
 
     public String getTelefono() {
